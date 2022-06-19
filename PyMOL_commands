@@ -1,0 +1,53 @@
+remove solvent
+remove hetatm
+bg_color white
+
+set cartoon_side_chain_helper, 1
+set cartoon_fancy_helices, 1
+set ray_trace_mode, 1
+
+set_color b, [101, 217, 255]
+set_color g, [31, 166, 77]
+color m, [177, 0, 155]
+
+color m, all
+color b, *_qty
+color g, *_native
+
+align SLC2A1_native and ss H, SLC2A1_qty and ss H, cycles = 0
+align SLC2A1_native and ss H, 6tha and ss H, cycles = 0
+align SLC2A1_qty and ss H, 6tha and ss H, cycles = 0
+
+align SLC7A11_native and ss H, SLC7A11_qty and ss H, cycles = 0
+align SLC7A11_native and ss H, 7ccs and ss H, cycles = 0
+align SLC7A11_qty and ss H, 7ccs and ss H, cycles = 0
+
+align SLC4A4_native and ss H, SLC4A4_qty and ss H, cycles = 0
+align SLC4A4_native and ss H, 6caa and ss H, cycles = 0
+align SLC4A4_qty and ss H, 6caa and ss H, cycles = 0
+
+align SLC1A5_native and ss H, SLC1A5_qty and ss H, cycles = 0
+align SLC1A5_native and ss H, 5lm4 and ss H, cycles = 0
+align SLC1A5_qty and ss H, 5lm4 and ss H, cycles = 0
+
+align SLC7A5_native and ss H, SLC7A5_qty and ss H, cycles = 0
+align SLC7A5_native and ss H, 7dsk and ss H, cycles = 0
+align SLC7A5_qty and ss H, 7dsk and ss H, cycles = 0
+
+align SLC29A1_native and ss H, SLC29A1_qty and ss H, cycles = 0
+align SLC29A1_native and ss H, 6ob7 and ss H, cycles = 0
+align SLC29A1_qty and ss H, 6ob7 and ss H, cycles = 0
+
+align SLC39A4_native and ss H, SLC39A4_qty and ss H, cycles = 0
+align SLC39A6_native and ss H, SLC39A6_qty and ss H, cycles = 0
+align SLC39A3_native and ss H, SLC39A3_qty and ss H, cycles = 0
+align SLC9A1_native and ss H, SLC9A1_qty and ss H, cycles = 0
+align SLC6A14_native and ss H, SLC6A14_qty and ss H, cycles = 0
+align SLC4A7_native and ss H, SLC4A7_qty and ss H, cycles = 0
+align SLC5A8_native and ss H, SLC5A8_qty and ss H, cycles = 0
+align SLC41A1_native and ss H, SLC41A1_qty and ss H, cycles = 0
+
+select byres ss L
+remove sele
+
+set cartoon_gap_cutoff, 0
