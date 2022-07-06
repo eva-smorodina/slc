@@ -1,5 +1,3 @@
-# slc
-
 Solute carrier membrane transporters are involved in all kinds of cellular nutrient
 transportation, energy generation and metabolism as well as other vital biological activities.
 They have recently been implicated in pancreatic cancer and other cancer metastasis,
