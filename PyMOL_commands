@@ -8,7 +8,7 @@ set ray_trace_mode, 1
 
 set_color b, [101, 217, 255]
 set_color g, [31, 166, 77]
-color m, [177, 0, 155]
+set_color m, [177, 0, 155]
 
 color m, all
 color b, *_qty
