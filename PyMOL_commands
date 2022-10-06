@@ -31,9 +31,9 @@ align SLC4A4_native and ss H, SLC4A4_qty and ss H, cycles = 0   # RMSD = 0.758 (
 align SLC4A4_native and ss H, 6caa and ss H, cycles = 0   # RMSD = 2.057 (297 to 297 atoms)
 align SLC4A4_qty and ss H, 6caa and ss H, cycles = 0   # RMSD = 2.199 (294 to 294 atoms)
 
-align SLC1A5_native and ss H, SLC1A5_qty and ss H, cycles = 0   # RMSD = 9.072 (269 to 269 atoms)
-align SLC1A5_native and ss H, 5lm4 and ss H, cycles = 0   # RMSD = 8.813 (278 to 278 atoms)
-align SLC1A5_qty and ss H, 5lm4 and ss H, cycles = 0   # RMSD = 3.015 (271 to 271 atoms)
+align SLC1A5_native and ss H, SLC1A5_qty and ss H, cycles = 0   # RMSD = 1.215 (311 to 311 atoms)
+align SLC1A5_native and ss H, 5lm4 and ss H, cycles = 0   # RMSD = 2.479 (278 to 278 atoms)
+align SLC1A5_qty and ss H, 5lm4 and ss H, cycles = 0   # RMSD = 4.572 (271 to 271 atoms)
 
 align SLC7A5_native and ss H, SLC7A5_qty and ss H, cycles = 0   # RMSD = 2.082 (339 to 339 atoms)
 align SLC7A5_native and ss H, 7dsk and ss H, cycles = 0   # RMSD = 2.726 (308 to 308 atoms)
