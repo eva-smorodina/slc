@@ -24,8 +24,8 @@ super SLC2A1_native and ss H, 6tha and ss H, cycles = 0   # RMSD = 2.969 (305 to
 super SLC2A1_qty and ss H, 6tha and ss H, cycles = 0   # RMSD = 1.053 (304 to 304 atoms)
 
 super SLC7A11_native and ss H, SLC7A11_qty and ss H, cycles = 0   # RMSD = 0.933 (299 to 299 atoms)
-super SLC7A11_native and ss H, 7ccs and ss H, cycles = 0   # RMSD = 2.670 (294 to 294 atoms)
-super SLC7A11_qty and ss H, 7ccs and ss H, cycles = 0   # RMSD = 2.283 (288 to 288 atoms)
+super SLC7A11_native and ss H, 7p9v and ss H, cycles = 0   # RMSD = 2.682 (282 to 282 atoms)
+super SLC7A11_qty and ss H, 7p9v and ss H, cycles = 0   # RMSD = 1.548 (282 to 282 atoms)
 
 super SLC4A4_native and ss H, SLC4A4_qty and ss H, cycles = 0   # RMSD = 0.445 (310 to 310 atoms)
 super SLC4A4_native and ss H, 6caa and ss H, cycles = 0   # RMSD = 1.588 (262 to 262 atoms)
